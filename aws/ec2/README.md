@@ -6,6 +6,10 @@
 
 > EC2 lets you launch and manage virtual machines using pre-configured or custom AMIs (Amazon Machine Images).
 
+> Ease In Scaling Up/Down.
+
+> Pay only for what you use
+
 ---
 
 ## 📦 EC2 Basics
@@ -15,6 +19,22 @@
 - **State Persistence**:
   - **Stopped EC2** = No compute billing
   - **Terminated EC2** = Gone forever
+
+---
+
+---
+## EC2 Pricing 
+ ### 1. On Demand
+    pay per hour or seconds.
+
+### 2. Reserved
+    Reserve Capacity for discounts.
+
+### 3. Spot 
+    Bid your price for unused ec2 capacity.
+
+### 4. Dedicated Hosts
+    Physical sever dedicated for you.
 
 ---
 
@@ -70,6 +90,9 @@ Security Groups act like **virtual firewalls** for your EC2 instances.
 
 > SGs are attached at the **instance level**.
 
+---
+## 🔗 EC2 Instance Creation Diagram
+![EC2 Instance Diagram](image.png)
 ---
 
 ## 🕸️ VPC Network Flow to EC2
